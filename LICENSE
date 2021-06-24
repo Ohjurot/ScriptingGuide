@@ -1,3 +1,16 @@
+======================================================================
+* Information: The source code of this application is licenses under *
+* The Unlicense License. However this application uses 3rd party     *
+* Software that is not license under the same license                *
+* Third party software can be found in the directory "vendor" and or *
+* "Environment". To review the license view the comments in the      *
+* associated header file and or the LICENSE file(s) in the 3rd party *
+* software directory                                                 *
+*                                                                    *
+* THE FOLLOWING LICENSE JUST APPLIES TO THE CODE IN THE              *
+* "CppFramework" DIRECTORY IF NOT STATED DIFFERENTLY!                *
+======================================================================
+
 This is free and unencumbered software released into the public domain.
 
 Anyone is free to copy, modify, publish, use, compile, sell, or
