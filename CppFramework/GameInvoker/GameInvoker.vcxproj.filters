@@ -24,6 +24,9 @@
     <ClCompile Include="src\00_Native\NativeCppGame.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="src\01_Java\JavaGame.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Common\Input.h">
@@ -33,6 +36,9 @@
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="src\00_Native\NativeCppGame.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\01_Java\JavaGame.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>

@@ -47,15 +47,15 @@
     <LinkIncremental>true</LinkIncremental>
     <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)obj\$(ProjectName)\$(Configuration)\</IntDir>
-    <IncludePath>$(SolutionDir)ConsoleGameLib\include;$(ProjectDir)src;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)bin\$(Configuration)\;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)ConsoleGameLib\include;$(SolutionDir)..\Environment\jdk\include\win32;$(SolutionDir)..\Environment\jdk\include;$(ProjectDir)src;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)..\Environment\jdk\lib;$(SolutionDir)bin\$(Configuration)\;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)obj\$(ProjectName)\$(Configuration)\</IntDir>
-    <IncludePath>$(SolutionDir)ConsoleGameLib\include;$(ProjectDir)src;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)bin\$(Configuration)\;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)ConsoleGameLib\include;$(SolutionDir)..\Environment\jdk\include\win32;$(SolutionDir)..\Environment\jdk\include;$(ProjectDir)src;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)..\Environment\jdk\lib;$(SolutionDir)bin\$(Configuration)\;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -67,9 +67,12 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>ConsoleGameLib.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <DelayLoadDLLs>ConsoleGameLib.dll</DelayLoadDLLs>
+      <AdditionalDependencies>ConsoleGameLib.lib;jvm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <DelayLoadDLLs>ConsoleGameLib.dll; jvm.dll</DelayLoadDLLs>
     </Link>
+    <PostBuildEvent>
+      <Command>xcopy $(SolutionDir)..\Environment\jdk\jre\* $(TargetDir)jre\ /y /i /s</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -85,17 +88,22 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>ConsoleGameLib.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <DelayLoadDLLs>ConsoleGameLib.dll</DelayLoadDLLs>
+      <AdditionalDependencies>ConsoleGameLib.lib;jvm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <DelayLoadDLLs>ConsoleGameLib.dll; jvm.dll</DelayLoadDLLs>
     </Link>
+    <PostBuildEvent>
+      <Command>xcopy $(SolutionDir)..\Environment\jdk\jre\* $(TargetDir)jre\ /y /i /s</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\00_Native\NativeCppGame.cpp" />
+    <ClCompile Include="src\01_Java\JavaGame.cpp" />
     <ClCompile Include="src\Common\Input.cpp" />
     <ClCompile Include="src\wWinMain.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\00_Native\NativeCppGame.h" />
+    <ClInclude Include="src\01_Java\JavaGame.h" />
     <ClInclude Include="src\Common\Input.h" />
     <ClInclude Include="src\IGame.h" />
   </ItemGroup>
