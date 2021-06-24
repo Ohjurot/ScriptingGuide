@@ -97,12 +97,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\00_Native\NativeCppGame.cpp" />
+    <ClCompile Include="src\01_Java\JavaBind.cpp" />
     <ClCompile Include="src\01_Java\JavaGame.cpp" />
     <ClCompile Include="src\Common\Input.cpp" />
     <ClCompile Include="src\wWinMain.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\00_Native\NativeCppGame.h" />
+    <ClInclude Include="src\01_Java\JavaBind.h" />
     <ClInclude Include="src\01_Java\JavaGame.h" />
     <ClInclude Include="src\Common\Input.h" />
     <ClInclude Include="src\IGame.h" />

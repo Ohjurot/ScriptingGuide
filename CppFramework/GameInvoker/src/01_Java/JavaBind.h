@@ -2,6 +2,9 @@
 
 #include <jni.h>
 
+#include <ConsoleGameLib/RandomWord.h>
+#include <ConsoleGameLib/GameConsole.h>
+
 // Java bindings
 class JavaBind {
 	public:

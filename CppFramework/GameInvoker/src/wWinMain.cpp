@@ -86,7 +86,7 @@ INT WINAPI wWinMain(HINSTANCE _In_ hInstance, HINSTANCE _In_opt_ hPrevInstance, 
 			delta.QuadPart = currentFrameTime.QuadPart - lastFrameTime.QuadPart;
 			delta.QuadPart *= 1000000;
 			delta.QuadPart /= timeFreqency.QuadPart;
-			deltaTimeMs += delta.QuadPart / 100.0f;
+			deltaTimeMs += delta.QuadPart / 1000.f;
 
 			// Refresh last time
 			lastFrameTime.QuadPart = currentFrameTime.QuadPart;
