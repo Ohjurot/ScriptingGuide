@@ -30,6 +30,9 @@
     <ClCompile Include="src\01_Java\JavaBind.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="src\02_CS\CsGame.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Common\Input.h">
@@ -45,6 +48,9 @@
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="src\01_Java\JavaBind.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\02_CS\CsGame.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>

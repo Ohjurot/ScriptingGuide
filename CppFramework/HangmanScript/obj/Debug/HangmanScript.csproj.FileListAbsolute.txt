@@ -1,0 +1,5 @@
+D:\Dev\cpp\github-projects\ScriptingGuide\CppFramework\bin\Debug\HangmanScript.dll
+D:\Dev\cpp\github-projects\ScriptingGuide\CppFramework\bin\Debug\HangmanScript.pdb
+D:\Dev\cpp\github-projects\ScriptingGuide\CppFramework\HangmanScript\obj\Debug\HangmanScript.csproj.CoreCompileInputs.cache
+D:\Dev\cpp\github-projects\ScriptingGuide\CppFramework\HangmanScript\obj\Debug\HangmanScript.dll
+D:\Dev\cpp\github-projects\ScriptingGuide\CppFramework\HangmanScript\obj\Debug\HangmanScript.pdb
