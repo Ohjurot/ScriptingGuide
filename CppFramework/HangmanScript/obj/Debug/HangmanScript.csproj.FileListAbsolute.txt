@@ -3,3 +3,9 @@ D:\Dev\cpp\github-projects\ScriptingGuide\CppFramework\bin\Debug\HangmanScript.p
 D:\Dev\cpp\github-projects\ScriptingGuide\CppFramework\HangmanScript\obj\Debug\HangmanScript.csproj.CoreCompileInputs.cache
 D:\Dev\cpp\github-projects\ScriptingGuide\CppFramework\HangmanScript\obj\Debug\HangmanScript.dll
 D:\Dev\cpp\github-projects\ScriptingGuide\CppFramework\HangmanScript\obj\Debug\HangmanScript.pdb
+G:\Dev\cpp\github-projects\ScriptingGuide\CppFramework\bin\Debug\HangmanScript.dll
+G:\Dev\cpp\github-projects\ScriptingGuide\CppFramework\bin\Debug\HangmanScript.pdb
+G:\Dev\cpp\github-projects\ScriptingGuide\CppFramework\HangmanScript\obj\Debug\HangmanScript.csproj.AssemblyReference.cache
+G:\Dev\cpp\github-projects\ScriptingGuide\CppFramework\HangmanScript\obj\Debug\HangmanScript.csproj.CoreCompileInputs.cache
+G:\Dev\cpp\github-projects\ScriptingGuide\CppFramework\HangmanScript\obj\Debug\HangmanScript.dll
+G:\Dev\cpp\github-projects\ScriptingGuide\CppFramework\HangmanScript\obj\Debug\HangmanScript.pdb

@@ -103,6 +103,7 @@ xcopy "$(MONO_PROJECT)lib\mono\4.5\*" "$(TargetDir)mono\4.5\" /y /i /s</Command>
     <ClCompile Include="src\00_Native\NativeCppGame.cpp" />
     <ClCompile Include="src\01_Java\JavaBind.cpp" />
     <ClCompile Include="src\01_Java\JavaGame.cpp" />
+    <ClCompile Include="src\02_CS\CsBind.cpp" />
     <ClCompile Include="src\02_CS\CsGame.cpp" />
     <ClCompile Include="src\Common\Input.cpp" />
     <ClCompile Include="src\wWinMain.cpp" />
@@ -111,6 +112,7 @@ xcopy "$(MONO_PROJECT)lib\mono\4.5\*" "$(TargetDir)mono\4.5\" /y /i /s</Command>
     <ClInclude Include="src\00_Native\NativeCppGame.h" />
     <ClInclude Include="src\01_Java\JavaBind.h" />
     <ClInclude Include="src\01_Java\JavaGame.h" />
+    <ClInclude Include="src\02_CS\CsBind.h" />
     <ClInclude Include="src\02_CS\CsGame.h" />
     <ClInclude Include="src\Common\Input.h" />
     <ClInclude Include="src\IGame.h" />

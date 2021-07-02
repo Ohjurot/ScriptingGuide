@@ -10,9 +10,9 @@ namespace CGL {
         public extern static void present();
 
         [MethodImplAttribute(MethodImplOptions.InternalCall)]
-        public extern static void putChar(UInt16 x, UInt16 y, char c);
+        public extern static void putChar(uint x, uint y, char c);
 
         [MethodImplAttribute(MethodImplOptions.InternalCall)]
-        public extern static void putString(UInt16 x, UInt16 y, string str, bool wrap = true);
+        public extern static void putString(uint x, uint y, string str, bool wrap = true);
     }
 }
