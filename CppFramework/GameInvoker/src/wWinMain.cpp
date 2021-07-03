@@ -9,6 +9,7 @@
 #include <00_Native/NativeCppGame.h>
 #include <01_Java/JavaGame.h>
 #include <02_CS/CsGame.h>
+#include <03_LUA/LuaGame.h>
 
 #pragma comment(linker,"\"/manifestdependency:type='win32' \
 name='Microsoft.Windows.Common-Controls' version='6.0.0.0' \
@@ -54,7 +55,12 @@ INT WINAPI wWinMain(HINSTANCE _In_ hInstance, HINSTANCE _In_opt_ hPrevInstance, 
 				case 'C':
 					ptrGame = new CsGame();
 					break;
-				
+
+				// LUA
+				case 'D':
+					ptrGame = new LuaGame();
+					break;
+
 				// Fallback
 				default:
 					CGL::Console::clearBuffer();

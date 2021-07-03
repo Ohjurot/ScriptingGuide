@@ -36,6 +36,9 @@
     <ClCompile Include="src\02_CS\CsBind.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="src\03_LUA\LuaGame.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Common\Input.h">
@@ -59,5 +62,11 @@
     <ClInclude Include="src\02_CS\CsBind.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="src\03_LUA\LuaGame.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="src\03_LUA\HangmanScript.lua" />
   </ItemGroup>
 </Project>
