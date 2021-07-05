@@ -45,6 +45,9 @@
     <ClCompile Include="src\04_Python\PyGame.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="src\04_Python\PyBind.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Common\Input.h">
@@ -77,8 +80,12 @@
     <ClInclude Include="src\04_Python\PyGame.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="src\04_Python\PyBind.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CopyFileToFolders Include="src\03_LUA\HangmanScript.lua" />
+    <CopyFileToFolders Include="src\04_Python\HangmanScript.py" />
   </ItemGroup>
 </Project>

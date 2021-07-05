@@ -109,6 +109,7 @@ xcopy "$(PYTHON39)python39.dll" "$(TargetDir)" /y</Command>
     <ClCompile Include="src\02_CS\CsGame.cpp" />
     <ClCompile Include="src\03_LUA\LuaBind.cpp" />
     <ClCompile Include="src\03_LUA\LuaGame.cpp" />
+    <ClCompile Include="src\04_Python\PyBind.cpp" />
     <ClCompile Include="src\04_Python\PyGame.cpp" />
     <ClCompile Include="src\Common\Input.cpp" />
     <ClCompile Include="src\wWinMain.cpp" />
@@ -121,6 +122,7 @@ xcopy "$(PYTHON39)python39.dll" "$(TargetDir)" /y</Command>
     <ClInclude Include="src\02_CS\CsGame.h" />
     <ClInclude Include="src\03_LUA\LuaBind.h" />
     <ClInclude Include="src\03_LUA\LuaGame.h" />
+    <ClInclude Include="src\04_Python\PyBind.h" />
     <ClInclude Include="src\04_Python\PyGame.h" />
     <ClInclude Include="src\Common\Input.h" />
     <ClInclude Include="src\IGame.h" />
@@ -129,6 +131,13 @@ xcopy "$(PYTHON39)python39.dll" "$(TargetDir)" /y</Command>
     <CopyFileToFolders Include="src\03_LUA\HangmanScript.lua">
       <DeploymentContent>true</DeploymentContent>
       <FileType>Document</FileType>
+    </CopyFileToFolders>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="src\04_Python\HangmanScript.py">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
     </CopyFileToFolders>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
