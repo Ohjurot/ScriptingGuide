@@ -42,6 +42,9 @@
     <ClCompile Include="src\03_LUA\LuaBind.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="src\04_Python\PyGame.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Common\Input.h">
@@ -69,6 +72,9 @@
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="src\03_LUA\LuaBind.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\04_Python\PyGame.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>

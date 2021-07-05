@@ -10,6 +10,7 @@
 #include <01_Java/JavaGame.h>
 #include <02_CS/CsGame.h>
 #include <03_LUA/LuaGame.h>
+#include <04_Python/PyGame.h>
 
 #pragma comment(linker,"\"/manifestdependency:type='win32' \
 name='Microsoft.Windows.Common-Controls' version='6.0.0.0' \
@@ -59,6 +60,11 @@ INT WINAPI wWinMain(HINSTANCE _In_ hInstance, HINSTANCE _In_opt_ hPrevInstance, 
 				// LUA
 				case 'D':
 					ptrGame = new LuaGame();
+					break;
+
+				// Python
+				case 'E':
+					ptrGame = new PyGame();
 					break;
 
 				// Fallback

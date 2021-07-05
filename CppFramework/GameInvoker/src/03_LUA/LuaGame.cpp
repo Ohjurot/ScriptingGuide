@@ -12,7 +12,7 @@ LuaGame::LuaGame() {
         lua_register(m_ptrLuaState, "clearBuffer", &LuaBind::Lua_GameConsole_clearBuffer);
         lua_register(m_ptrLuaState, "present", &LuaBind::Lua_GameConsole_present);
         lua_register(m_ptrLuaState, "putString", &LuaBind::Lua_GameConsole_putString);
-        
+
         // Load and parse HangmanScript.lua
         int resultL = luaL_loadfile(m_ptrLuaState, "./HangmanScript.lua");
         if (resultL == LUA_OK) {
