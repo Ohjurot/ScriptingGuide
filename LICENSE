@@ -1,3 +1,42 @@
+Used 3rd Party software:
+-  Java OpenJDK 8
+   Copyright (c) 1996, 2013, Oracle and/or its affiliates. 
+   All rights reserved.
+   free software / The GNU General Public License (without warranty,
+   may not be correct or uptodate)
+   !!!! No JDK / JDR / OpenJDK / OpenJRE Binary(s), Header(s) or Source 
+   File(s) are included in this repository. The files need to be aquired 
+   seperatly. Review the license(s) when you download the required 
+   files!
+   
+-  Mono 
+   MIT License / 3-clause BSD license (without warranty, may not be
+   correct or uptodate)
+   !!!! No Mono Binary(s), Header(s) or Source File(s) are included in 
+   this repository. The files need to be aquired seperatly. Review the 
+   license(s) when you download the required files!
+
+-  LUA
+   Copyright (C) 1994-2020 Lua.org, PUC-Rio
+   MIT License (without warranty, may not be correct or uptodate)
+   !!!! No LUA Binary(s), Header(s) or Source File(s) are included in 
+   this repository. The files need to be aquired seperatly. Review the 
+   license(s) when you download the required files!
+   
+-  Python
+   PYTHON SOFTWARE FOUNDATION LICENSE VERSION 2 (without warranty, 
+   may not be correct or uptodate)
+   !!!! No Python Binary(s), Header(s) or Source File(s) are included 
+   in this repository. The files need to be aquired seperatly. Review 
+   the license(s) when you download the required files!
+
+-  AngelScript
+   Copyright © 2003-2020 Andreas Jönsson
+   !!!! No AngelScript Binary(s), Header(s) or Source File(s) are 
+   included in this repository. The files need to be aquired 
+   seperatly. Review the license(s) when you download the required 
+   files!
+
 ======================================================================
 * Information: The source code of this application is licenses under *
 * The Unlicense License. However this application uses 3rd party     *
